@@ -1,5 +1,39 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-
+@font-face {
+    font-family: 'JQKAs-Wild-Font';
+    src: URL('assets/img/JqkasWild-w1YD6.ttf') format('truetype');
+  }
 body{
-    background: white;
+    background-image: url(assets/img/poker-background.jpg);
+    font-family: 'JQKAs-Wild-Font';
+}
+.poker{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    width: 20em;
+    height: 30em;
+    box-shadow: 1em 1em 1em -0.2em rgb(0,0,0);
+}
+#topCard{
+}
+#contentCard{
+    height: 70%;
+}
+#bottomCard{
+    justify-items: right;
+}
+.cornerTopValues{
+    font-size: 2.5em;
+    line-height: 0.5;
+    margin: 7.5%;
+}
+.cornerBottomValues{
+    font-size: 2.5em;
+    line-height: 0.5;
+    margin: 7.5%;
+}
+.contentValues{
+    font-size: 10em;
+    text-align: center;
 }
